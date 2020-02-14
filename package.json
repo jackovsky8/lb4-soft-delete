@@ -1,6 +1,6 @@
 {
   "name": "lb4-soft-delete",
-  "version": "1.0.0",
+  "version": "1.0.0@beta-0.0.1",
   "description": "Adding soft delete functionality to Loopback 4 models.",
   "keywords": [
     "loopback-extension",
