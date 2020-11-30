@@ -65,3 +65,6 @@ typings/
 
 #VS-COde
 .vscode
+
+#Package Lock
+package-lock.json

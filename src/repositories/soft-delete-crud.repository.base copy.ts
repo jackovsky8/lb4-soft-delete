@@ -380,7 +380,7 @@ export class SoftDeleteCrudRepository<
   findOne(
     filter?: SoftDeleteFilter<T>,
     options?: AnyObject | undefined,
-  ): Promise<T & Relations | null> {
+  ): Promise<(T & Relations) | null> {
     filter = this.addDeleteWhereClause(filter);
     return super.findOne(filter, options);
   }

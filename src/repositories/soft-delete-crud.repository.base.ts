@@ -165,7 +165,7 @@ export class SoftDeleteCrudRepository<
   findOne(
     filter?: SoftDeleteFilter<T>,
     options?: AnyObject | undefined,
-  ): Promise<T & Relations | null> {
+  ): Promise<(T & Relations) | null> {
     // Add the filter withDeleted and onlyDeleted to the where clause of the filter
     filter = this.addDeleteWhereClause(filter);
 

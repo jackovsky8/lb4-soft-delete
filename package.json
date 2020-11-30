@@ -1,6 +1,6 @@
 {
   "name": "lb4-soft-delete",
-  "version": "1.0.0-beta.0.0.1",
+  "version": "1.0.0-beta.0.0.2",
   "description": "Adding soft delete functionality to Loopback 4 models.",
   "keywords": [
     "loopback-extension",
@@ -41,23 +41,23 @@
     "!*/__tests__"
   ],
   "dependencies": {
-    "@loopback/boot": "^1.5.9",
-    "@loopback/context": "^1.23.3",
-    "@loopback/core": "^1.10.5",
-    "@loopback/rest": "^1.21.0"
+    "@loopback/boot": "^1.7.4",
+    "@loopback/context": "^1.25.1",
+    "@loopback/core": "^1.12.4",
+    "@loopback/rest": "^1.26.1"
   },
   "devDependencies": {
-    "@loopback/build": "^2.0.14",
-    "@loopback/eslint-config": "^4.1.2",
-    "@loopback/testlab": "^1.9.2",
-    "@types/node": "^10.14.21",
-    "@typescript-eslint/eslint-plugin": "^2.3.3",
-    "@typescript-eslint/parser": "^2.3.3",
-    "eslint": "^6.5.1",
-    "eslint-config-prettier": "^6.4.0",
-    "eslint-plugin-eslint-plugin": "^2.1.0",
-    "eslint-plugin-mocha": "^6.1.1",
-    "source-map-support": "^0.5.13",
-    "typescript": "^3.6.4"
+    "@loopback/build": "^2.1.0",
+    "@loopback/eslint-config": "^4.1.5",
+    "@loopback/testlab": "^1.10.3",
+    "@types/node": "^10.17.47",
+    "@typescript-eslint/eslint-plugin": "^2.34.0",
+    "@typescript-eslint/parser": "^2.34.0",
+    "eslint": "^6.8.0",
+    "eslint-config-prettier": "^6.15.0",
+    "eslint-plugin-eslint-plugin": "^2.3.0",
+    "eslint-plugin-mocha": "^6.3.0",
+    "source-map-support": "^0.5.19",
+    "typescript": "^3.9.7"
   }
 }

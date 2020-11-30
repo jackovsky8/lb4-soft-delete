@@ -356,10 +356,12 @@ describe('SoftDeleteCrudRepository', () => {
       let item: Item = await repo.create({title: 't3', description: 'c3'});
 
       await repo.delete(item);
-      item = (await repo.find({
-        where: {id: item.id},
-        withDeleted: true,
-      }))[0];
+      item = (
+        await repo.find({
+          where: {id: item.id},
+          withDeleted: true,
+        })
+      )[0];
 
       await repo.deleteHard(item);
 
