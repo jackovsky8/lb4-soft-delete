@@ -44,7 +44,7 @@
     "@loopback/boot": "^1.7.4",
     "@loopback/context": "^1.25.1",
     "@loopback/core": "^1.12.4",
-    "@loopback/rest": "^1.26.1"
+    "@loopback/rest": "^13.1.3"
   },
   "devDependencies": {
     "@loopback/build": "^2.1.0",
